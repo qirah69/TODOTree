@@ -1,1 +1,0 @@
-/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/TaskTreeQt.dir/link.d CMakeFiles/TaskTreeQt.dir/TaskTreeQt_autogen/mocs_compilation.cpp.o CMakeFiles/TaskTreeQt.dir/src/main.cpp.o -o TaskTreeQt  /usr/lib64/libQt6Widgets.so.6.11.1 /usr/lib64/libQt6Gui.so.6.11.1 /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so /usr/lib64/libQt6Core.so.6.11.1
