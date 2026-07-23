@@ -1,0 +1,19 @@
+# Build directories and artifacts
+build/
+bin/
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.so
+*.dylib
+
+# Qt / IDE specific
+*.user
+*.user.*
+*.autosave
+CMakeLists.txt.user
+.vscode/
+.idea/
