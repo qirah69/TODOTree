@@ -1,0 +1,5 @@
+/home/qirah70/Code/tracker/out/Debug/CMakeFiles/TaskTreeQt.dir
+/home/qirah70/Code/tracker/out/Debug/CMakeFiles/edit_cache.dir
+/home/qirah70/Code/tracker/out/Debug/CMakeFiles/rebuild_cache.dir
+/home/qirah70/Code/tracker/out/Debug/CMakeFiles/TaskTreeQt_autogen_timestamp_deps.dir
+/home/qirah70/Code/tracker/out/Debug/CMakeFiles/TaskTreeQt_autogen.dir
