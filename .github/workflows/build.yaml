@@ -1,0 +1,39 @@
+name: Build TODOTree Executables
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Install Qt Framework
+      uses: jurplel/install-qt-action@v4
+      with:
+        version: '6.x.x'
+
+    - name: Configure CMake
+      run: cmake -B build -S .
+
+    - name: Build Project
+      run: cmake --build build --config Release
+
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: TODOTree-${{ runner.os }}
+        path: |
+          build/TODOTree*
+          build/Release/TODOTree*
+          build/Release/TODOTree.exe
