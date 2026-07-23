@@ -21,7 +21,7 @@ jobs:
     - name: Install Qt Framework
       uses: jurplel/install-qt-action@v4
       with:
-        version: '6.x.x'
+        version: '6.6.3'
 
     - name: Configure CMake
       run: cmake -B build -S .
@@ -36,4 +36,3 @@ jobs:
         path: |
           build/TODOTree*
           build/Release/TODOTree*
-          build/Release/TODOTree.exe
