@@ -17,3 +17,15 @@ bin/
 CMakeLists.txt.user
 .vscode/
 .idea/
+
+# Build folders & output
+out/
+build/
+bin/
+
+# Tooling & Configs
+compile_commands.json
+
+# App runtime saves / test files
+*.json
+!README.md
